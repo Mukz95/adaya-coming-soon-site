@@ -1,0 +1,189 @@
+/* ------------------------------------------------*/
+/* Socials Start */
+/* ------------------------------------------------*/
+
+@media only screen and (min-width: 992px) {
+    .socials {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 120px;
+      height: 100%;
+      white-space: nowrap;
+      text-align: center;
+      padding: 0 2.4rem;
+    }
+    .socials ul {
+      display: block;
+      position: absolute;
+      top: 50%;
+      -webkit-transform-origin: top center;
+      -moz-transform-origin: top center;
+      -ms-transform-origin: top center;
+      /* transform-origin: top center; */
+      -webkit-transform: translateX(-50%) rotate(-90deg);
+      -moz-transform: translateX(-50%) rotate(-90deg);
+      -ms-transform: translateX(-50%) rotate(-90deg);
+      transform: translateX(-50%) rotate(-90deg);
+    }
+    .socials ul li {
+      display: inline-block;
+    }
+    .socials ul li::after {
+      content: '/';
+      display: inline-block;
+      height: 7.2rem;
+      margin: 0 1rem 0 1.2rem;
+      font: italic 600 1.7rem/7.2rem "CormorantGaramond", serif;
+    }
+    .socials ul li:last-of-type::after {
+      display: none;
+    }
+    .socials ul li a {
+      height: 7.2rem;
+      font: italic 600 1.7rem/7.2rem "CormorantGaramond", serif;
+    }
+  }
+
+  .socials ul {
+    display: block;
+  }
+  
+  .socials ul li {
+    display: inline-block;
+  }
+  
+  .socials ul li::after {
+    content: '/';
+    display: inline-block;
+    height: auto;
+    margin: 0 1rem 0 1.2rem;
+    font: italic 600 1.4rem/1.7 "CormorantGaramond", serif;
+  }
+  
+  .socials ul li:last-of-type::after {
+    display: none;
+  }
+  
+  .socials ul li a {
+    height: auto;
+    font: italic 600 1.4rem/1.7 "CormorantGaramond", serif;
+    color: #212121;
+  }
+  
+  .socials.dark ul li::after {
+    color: #676767;
+  }
+  
+  .socials.dark ul li a {
+    color: #212121;
+  }
+  
+  .socials.light ul li::after {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .socials.light ul li a {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+/* ------------------------------------------------*/
+/* Socials End */
+/* ------------------------------------------------*/
+
+/* ------------------------------------------------*/
+/* Typography Start */
+/* ------------------------------------------------*/
+h1 {
+    font: normal 300 4.3rem/1 "CormorantGaramond";
+    text-transform: uppercase;
+    color: #212121;
+    margin-top: 2rem;
+  }
+  
+
+  .headline{
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font: normal 300 1.6rem/1.7 "Raleway", sans-serif;
+    color: #212121;
+    padding-left: .2rem;
+    margin-top: 1.8rem;
+    max-width: 500px;
+    font-size: 1.5rem;
+  }
+
+  .postion-top-svg{
+      position: absolute;
+      left: 715px;
+      z-index: -1;
+  }
+
+  .position-bot-svg{
+    transform: scaleY(-1);
+    position: absolute;
+    margin-top: -200px;
+    left: 11px;
+    z-index: -1;
+
+
+  }
+
+  .right-side-img{
+      background-image: url("BekkyCalver-47.jpeg");
+      background-size: cover;
+      
+
+  }
+
+  .headline__subtitle {
+    display: block;
+    font: italic 600 1.2rem/1.2 "CormorantGaramond", serif;
+    color: #C69681;
+    background: -webkit-linear-gradient(-45deg, #c69681 0%, #dbbead 30%, #efab92 70%, #c69681 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 2.4rem;
+    padding-left: .2rem;
+    max-width: 500px;
+  }
+
+  .btn-light {
+    color: #212121;
+    border-color: -webkit-linear-gradient(135deg, #c69681 0%, #dbbead 30%, #efab92 70%, #c69681 100%);
+    border-color: -moz- oldlinear-gradient(135deg, #c69681 0%, #dbbead 30%, #efab92 70%, #c69681 100%);
+    border-color: -o-linear-gradient(135deg, #c69681 0%, #dbbead 30%, #efab92 70%, #c69681 100%);
+    border-color: linear-gradient(-45deg, #c69681 0%, #dbbead 30%, #efab92 70%, #c69681 100%);
+    font: normal 500 1rem/1.7 "Raleway", sans-serif;
+    text-transform: uppercase;
+  }
+  
+  .btn-light .btn-background {
+    background-color: #ffffff;
+  }
+
+  
+  .btn{
+      padding: 20px;
+      border: solid;
+      border-color: #dbbead !important;
+
+  }
+
+  .headline__btnholder{
+      font: 12px;
+    margin-top: 40px;
+  }
+  
+  .btn:hover{
+    background: -webkit-linear-gradient(135deg, #c69681 0%, #dbbead 30%, #efab92 70%, #c69681 100%);
+
+  }
+
+  .btn-caption{
+      background: transparent;
+  }
